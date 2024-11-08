@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2023/07/24/08/28/ai-generated-8146559_960_720.png');
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.modalBtn {
+  margin: 3rem;
+  background-color: orangered;
+  color: white;
+  padding: 15px;
+  box-shadow: 0, 0, 14px 7px rgba(0, 0, 0, 0.3);
+  border: 0;
+  font-size: large;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalOverlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: orangered;
+  padding: 3rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.modal p {
+  text-align: center;
+  color: white;
+}
+.modal h2 {
+  text-align: center;
+  color: white;
+}
+
+.closeBtn {
+  color: #aaa;
+  float: right;
+  font-size: 32px;
+  font-family: monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  color: black;
+}
